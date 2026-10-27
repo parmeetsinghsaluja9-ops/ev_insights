@@ -8,12 +8,14 @@ globalThis.EmbedUtils = {
       return u.protocol === 'https:' && u.hostname === 'public.tableau.com' && u.pathname.length > 1;
     } catch { return false; }
   },
-  embedSrc(url) {
+embedSrc(url) {
     const u = new URL(url.trim());
+
     u.search = '';
     u.hash = '';
-    return `${u.toString()}?:showVizHome=no&:embed=true&:toolbar=yes`;
-  },
+
+    return `${u.origin}${u.pathname}/?:showVizHome=no&:embed=true&:toolbar=yes`;
+},
   fmtMoney(n) {
     const a = Math.abs(n), s = n < 0 ? '-' : '';
     return a >= 1e6 ? `${s}${(a / 1e6).toFixed(2)}M` : a >= 1e3 ? `${s}${(a / 1e3).toFixed(0)}K` : `${s}${a.toFixed(0)}`;
