@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+.DS_Store
+# Large synthetic stress datasets (regenerate with: npm run perf:data)
+performance_testing/datasets/*_synthetic.csv
+# Recalculation scratch
+/tmp/

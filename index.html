@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Superstore Sales &amp; Profitability | Tableau Dashboard and Story</title>
+<meta name="description" content="Tableau vocational training project analysing 8,399 Superstore order lines (2009-2012): dashboard, data story, performance-testing method and findings.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Superstore Sales &amp; Profitability - Tableau Project">
+<meta property="og:description" content="Interactive Tableau dashboard and data story on sales and profit, with documented data preparation and performance testing.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <nav class="nav" aria-label="Primary">
+    <strong>Superstore Analysis</strong>
+    <a href="#overview">Overview</a><a href="#findings">Findings</a><a href="#dashboard">Dashboard</a><a href="#story">Story</a>
+    <a href="#data">Data</a><a href="#performance">Performance</a><a href="#downloads">Downloads</a>
+  </nav>
+</header>
+<main id="main">
+  <section id="overview" aria-labelledby="h-overview">
+    <p class="tag">Tableau vocational training project</p>
+    <h1 id="h-overview">Superstore Sales and Profitability Analysis</h1>
+    <p class="lead">Where does a superstore make money, and where does it lose it? A Tableau dashboard and six-point data story built on 8,399 order lines from 2009 to 2012.</p>
+    <div class="grid" style="margin-top:1rem">
+      <div class="card"><h3>Objectives</h3><ul class="plain"><li>Build a responsive, multi-chart Tableau dashboard.</li><li>Tell a data story with explained story points and recommendations.</li><li>Test performance against four factors (data volume, filters, calculated fields, visualisation count).</li><li>Publish to Tableau Public and embed here.</li></ul></div>
+      <div class="card"><h3>Method</h3><ul class="plain"><li>Source CSV kept unchanged; cleaned with a Node.js script.</li><li>Validated Excel workbook (formulas independently recalculated).</li><li>Tableau specs: 12 calculated fields, 14 worksheets.</li><li>Static site: plain HTML, CSS and JavaScript.</li></ul></div>
+    </div>
+  </section>
+
+  <section id="findings" aria-labelledby="h-findings">
+    <h2 id="h-findings">Key findings from the data</h2>
+    <p class="muted">Figures computed from the cleaned dataset (amounts as supplied; currency not stated by the source). The bar charts below are quick previews drawn by this page, <strong>not</strong> the Tableau visualisations.</p>
+    <div class="kpis" id="kpis" aria-label="Key performance indicators"></div>
+    <div class="grid">
+      <article class="card"><h3>Sales by year</h3><p class="muted">Sales fell after 2009, partly recovering in 2012.</p><div id="chart-year"></div></article>
+      <article class="card"><h3>Profit margin by category</h3><p class="muted">Furniture is about 35% of sales but earns a 2.3% margin.</p><div id="chart-category"></div></article>
+      <article class="card"><h3>Six biggest sub-category losses (profit)</h3><p class="muted">Only Tables, Bookcases, Scissors/Rulers and Rubber Bands are negative.</p><div id="chart-sub"></div></article>
+      <article class="card"><h3>Margin by ship mode</h3><p class="muted">Delivery Truck: 42% of sales, 4.3% margin. Large furniture probably drives this; test before acting.</p><div id="chart-ship"></div></article>
+      <article class="card"><h3>Margin by discount band</h3><p class="muted">Lines with 4%+ discount earn about 8%, versus 12.6-13.6% at 0-3%. Association, not proven cause. (Band above 10% omitted: 5 lines.)</p><div id="chart-discount"></div></article>
+      <article class="card"><h3>Margin by region</h3><p class="muted">West is the largest region but earns 8.3%.</p><div id="chart-region"></div></article>
+    </div>
+    <h3 style="margin-top:1.5rem">Recommendations</h3>
+    <ol>
+      <li>Review pricing and costs for Tables and Bookcases, and for truck-shipped furniture.</li>
+      <li>Check whether discounts above 3% are justified; test discount caps on a sample.</li>
+      <li>Investigate West and Yukon margins (8.3% and 7.6%).</li>
+      <li>Protect high-margin lines: Binders (30.0%), Labels (35.1%), Envelopes (27.7%).</li>
+    </ol>
+    <p class="muted">About 50.8% of order lines are loss-making (total losses 1.10M against 1.52M net profit), so loss control is the largest lever.</p>
+  </section>
+
+  <section id="dashboard" aria-labelledby="h-dash">
+    <h2 id="h-dash">Interactive Tableau dashboard</h2>
+    <div id="dashboard-embed"><noscript>JavaScript is required to load the embedded dashboard.</noscript></div>
+  </section>
+
+  <section id="story" aria-labelledby="h-story">
+    <h2 id="h-story">Tableau story (6 story points)</h2>
+    <ol>
+      <li><strong>Big picture:</strong> 10.2% margin, flat sales.</li>
+      <li><strong>Furniture:</strong> high sales, low profit.</li>
+      <li><strong>Loss-making sub-categories.</strong></li>
+      <li><strong>Shipping mode</strong> and margin.</li>
+      <li><strong>Discounts</strong> and thinner margins.</li>
+      <li><strong>Regions</strong> and recommendations.</li>
+    </ol>
+    <div id="story-embed"><noscript>JavaScript is required to load the embedded story.</noscript></div>
+  </section>
+
+  <section id="data" aria-labelledby="h-data">
+    <h2 id="h-data">Data source and dictionary</h2>
+    <p>Dataset: <em>superstoreSales.csv</em> from the public <a href="https://github.com/curran/data/tree/gh-pages/superstoreSales" rel="noopener">curran/data</a> repository on GitHub (a Tableau-style sample "Superstore" with Canadian provinces). Licence and original provenance are not stated in that repository; treat as an educational sample dataset. <span id="quality"></span></p>
+    <div class="tablewrap"><table><caption class="muted" style="text-align:left;padding:.4rem .6rem">Cleaned dataset fields (original source file left untouched)</caption>
+      <thead><tr><th scope="col">Field</th><th scope="col">Type</th><th scope="col">Status</th><th scope="col">Description</th></tr></thead><tbody id="dict-body"></tbody></table></div>
+  </section>
+
+  <section id="performance" aria-labelledby="h-perf">
+    <h2 id="h-perf">Performance testing <span class="tag pending">Results pending: not yet measured</span></h2>
+    <p>Four factors are tested one at a time with other variables held constant, three runs per level, recording load or response time in seconds:</p>
+    <ol>
+      <li><strong>Amount of data rendered</strong> (2,000 / 4,000 / 8,399 rows).</li>
+      <li><strong>Utilisation of filters</strong> (0 / 2 / 4 / 6 filters).</li>
+      <li><strong>Number of calculated fields</strong> (0 / 3 / 6 / 10).</li>
+      <li><strong>Number of visualisations</strong> (1 / 3 / 6 / 9 sheets).</li>
+    </ol>
+    <p class="notice">No Tableau measurements have been taken yet, so no timings are shown. The plan is in <a href="performance_testing/test_plan.md">test_plan.md</a>; record results in <a href="performance_testing/results_template.csv">results_template.csv</a>.</p>
+  </section>
+
+  <section id="downloads" aria-labelledby="h-dl">
+    <h2 id="h-dl">Downloads and documentation</h2>
+    <ul class="plain">
+      <li><a href="excel/tableau_analysis.xlsx">Excel workbook</a> (9 sheets, formulas)</li>
+      <li><a href="data/processed/superstore_clean.csv">Cleaned dataset (CSV)</a> and <a href="data/processed/data_quality_report.md">data quality report</a></li>
+      <li><a href="tableau/workbook_specification.md">Tableau specifications</a>, <a href="tableau/calculated_fields.md">calculated fields</a>, <a href="tableau/story_specification.md">story</a></li>
+      <li><a href="documentation/project_report.md">Project report</a>, <a href="documentation/demonstration_script.md">demonstration script</a>, <a href="documentation/viva_questions.md">viva questions</a></li>
+    </ul>
+  </section>
+</main>
+<footer>&copy; <span id="year"></span> Tableau vocational training project. Educational use. Dashboards are only live once published to Tableau Public.</footer>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/embed-utils.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

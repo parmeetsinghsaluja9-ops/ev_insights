@@ -1,0 +1,1524 @@
+{
+  "generatedFrom": "data/processed/superstore_clean.csv",
+  "kpis": {
+    "totalSales": 14915600.82,
+    "totalProfit": 1521767.98,
+    "margin": 0.102,
+    "orders": 5496,
+    "orderLines": 8399,
+    "customers": 795,
+    "avgOrderValue": 2713.9,
+    "lossLines": 4264,
+    "lossLineShare": 0.5077,
+    "lossTotal": -1102503.01,
+    "avgShipDays": 2.03
+  },
+  "byYear": [
+    {
+      "key": 2009,
+      "sales": 4209139.46,
+      "profit": 434538.73,
+      "qty": 54380,
+      "lines": 2153,
+      "lossLines": 1095,
+      "margin": 0.1032
+    },
+    {
+      "key": 2010,
+      "sales": 3549680.8,
+      "profit": 363871.48,
+      "qty": 54384,
+      "lines": 2142,
+      "lossLines": 1080,
+      "margin": 0.1025
+    },
+    {
+      "key": 2011,
+      "sales": 3436816.7,
+      "profit": 381455.99,
+      "qty": 51564,
+      "lines": 2002,
+      "lossLines": 1040,
+      "margin": 0.111
+    },
+    {
+      "key": 2012,
+      "sales": 3719963.86,
+      "profit": 341901.78,
+      "qty": 54449,
+      "lines": 2102,
+      "lossLines": 1049,
+      "margin": 0.0919
+    }
+  ],
+  "byRegion": [
+    {
+      "key": "West",
+      "sales": 3597549.28,
+      "profit": 297008.61,
+      "qty": 51423,
+      "lines": 1991,
+      "lossLines": 1022,
+      "margin": 0.0826
+    },
+    {
+      "key": "Ontario",
+      "sales": 3063212.48,
+      "profit": 346868.54,
+      "qty": 46685,
+      "lines": 1826,
+      "lossLines": 910,
+      "margin": 0.1132
+    },
+    {
+      "key": "Prairie",
+      "sales": 2837304.6,
+      "profit": 321160.12,
+      "qty": 43732,
+      "lines": 1706,
+      "lossLines": 854,
+      "margin": 0.1132
+    },
+    {
+      "key": "Atlantic",
+      "sales": 2014248.2,
+      "profit": 238960.66,
+      "qty": 28068,
+      "lines": 1080,
+      "lossLines": 536,
+      "margin": 0.1186
+    },
+    {
+      "key": "Quebec",
+      "sales": 1510195.08,
+      "profit": 140426.65,
+      "qty": 19589,
+      "lines": 781,
+      "lossLines": 421,
+      "margin": 0.093
+    },
+    {
+      "key": "Yukon",
+      "sales": 975867.37,
+      "profit": 73849.21,
+      "qty": 13596,
+      "lines": 542,
+      "lossLines": 280,
+      "margin": 0.0757
+    },
+    {
+      "key": "Northwest Territories",
+      "sales": 800847.33,
+      "profit": 100653.08,
+      "qty": 9722,
+      "lines": 394,
+      "lossLines": 200,
+      "margin": 0.1257
+    },
+    {
+      "key": "Nunavut",
+      "sales": 116376.48,
+      "profit": 2841.11,
+      "qty": 1962,
+      "lines": 79,
+      "lossLines": 41,
+      "margin": 0.0244
+    }
+  ],
+  "byProvince": [
+    {
+      "key": "Ontario",
+      "sales": 3063212.48,
+      "profit": 346868.54,
+      "qty": 46685,
+      "lines": 1826,
+      "lossLines": 910,
+      "margin": 0.1132
+    },
+    {
+      "key": "British Columbia",
+      "sales": 1892757.78,
+      "profit": 145062.13,
+      "qty": 28769,
+      "lines": 1126,
+      "lossLines": 573,
+      "margin": 0.0766
+    },
+    {
+      "key": "Alberta",
+      "sales": 1704791.49,
+      "profit": 151946.48,
+      "qty": 22654,
+      "lines": 865,
+      "lossLines": 449,
+      "margin": 0.0891
+    },
+    {
+      "key": "Quebec",
+      "sales": 1510195.08,
+      "profit": 140426.65,
+      "qty": 19589,
+      "lines": 781,
+      "lossLines": 421,
+      "margin": 0.093
+    },
+    {
+      "key": "Saskatchewan",
+      "sales": 1464455.82,
+      "profit": 184732.96,
+      "qty": 23453,
+      "lines": 913,
+      "lossLines": 438,
+      "margin": 0.1261
+    },
+    {
+      "key": "Manitoba",
+      "sales": 1372848.78,
+      "profit": 136427.16,
+      "qty": 20279,
+      "lines": 793,
+      "lossLines": 416,
+      "margin": 0.0994
+    },
+    {
+      "key": "Yukon",
+      "sales": 975867.37,
+      "profit": 73849.21,
+      "qty": 13596,
+      "lines": 542,
+      "lossLines": 280,
+      "margin": 0.0757
+    },
+    {
+      "key": "Nova Scotia",
+      "sales": 817729.36,
+      "profit": 85361.87,
+      "qty": 11874,
+      "lines": 464,
+      "lossLines": 241,
+      "margin": 0.1044
+    },
+    {
+      "key": "Northwest Territories",
+      "sales": 800847.33,
+      "profit": 100653.08,
+      "qty": 9722,
+      "lines": 394,
+      "lossLines": 200,
+      "margin": 0.1257
+    },
+    {
+      "key": "New Brunswick",
+      "sales": 684211.52,
+      "profit": 115351.94,
+      "qty": 8437,
+      "lines": 323,
+      "lossLines": 161,
+      "margin": 0.1686
+    },
+    {
+      "key": "Prince Edward Island",
+      "sales": 409383.25,
+      "profit": 31361.71,
+      "qty": 5821,
+      "lines": 211,
+      "lossLines": 95,
+      "margin": 0.0766
+    },
+    {
+      "key": "Nunavut",
+      "sales": 116376.48,
+      "profit": 2841.11,
+      "qty": 1962,
+      "lines": 79,
+      "lossLines": 41,
+      "margin": 0.0244
+    },
+    {
+      "key": "Newfoundland",
+      "sales": 102924.07,
+      "profit": 6885.14,
+      "qty": 1936,
+      "lines": 82,
+      "lossLines": 39,
+      "margin": 0.0669
+    }
+  ],
+  "byCategory": [
+    {
+      "key": "Technology",
+      "sales": 5984248.18,
+      "profit": 886313.52,
+      "qty": 52175,
+      "lines": 2065,
+      "lossLines": 881,
+      "margin": 0.1481
+    },
+    {
+      "key": "Furniture",
+      "sales": 5178590.54,
+      "profit": 117433.03,
+      "qty": 44324,
+      "lines": 1724,
+      "lossLines": 922,
+      "margin": 0.0227
+    },
+    {
+      "key": "Office Supplies",
+      "sales": 3752762.1,
+      "profit": 518021.43,
+      "qty": 118278,
+      "lines": 4610,
+      "lossLines": 2461,
+      "margin": 0.138
+    }
+  ],
+  "bySubCategory": [
+    {
+      "key": "Technology | Telephones and Communication",
+      "sales": 1889313.8,
+      "profit": 316951.62,
+      "qty": 22969,
+      "lines": 883,
+      "lossLines": 310,
+      "margin": 0.1678
+    },
+    {
+      "key": "Technology | Office Machines",
+      "sales": 2168697.14,
+      "profit": 307712.93,
+      "qty": 7856,
+      "lines": 337,
+      "lossLines": 128,
+      "margin": 0.1419
+    },
+    {
+      "key": "Office Supplies | Binders and Binder Accessories",
+      "sales": 1022957.59,
+      "profit": 307413.39,
+      "qty": 22992,
+      "lines": 915,
+      "lossLines": 525,
+      "margin": 0.3005
+    },
+    {
+      "key": "Technology | Copiers and Fax",
+      "sales": 1130361.3,
+      "profit": 167361.49,
+      "qty": 2128,
+      "lines": 87,
+      "lossLines": 35,
+      "margin": 0.1481
+    },
+    {
+      "key": "Furniture | Chairs & Chairmats",
+      "sales": 1761836.55,
+      "profit": 149649.73,
+      "qty": 9590,
+      "lines": 386,
+      "lossLines": 202,
+      "margin": 0.0849
+    },
+    {
+      "key": "Furniture | Office Furnishings",
+      "sales": 698093.81,
+      "profit": 100427.93,
+      "qty": 20648,
+      "lines": 788,
+      "lossLines": 314,
+      "margin": 0.1439
+    },
+    {
+      "key": "Office Supplies | Appliances",
+      "sales": 736991.54,
+      "profit": 97158.06,
+      "qty": 10901,
+      "lines": 434,
+      "lossLines": 213,
+      "margin": 0.1318
+    },
+    {
+      "key": "Technology | Computer Peripherals",
+      "sales": 795875.94,
+      "profit": 94287.48,
+      "qty": 19222,
+      "lines": 758,
+      "lossLines": 408,
+      "margin": 0.1185
+    },
+    {
+      "key": "Office Supplies | Envelopes",
+      "sales": 174085.8,
+      "profit": 48182.6,
+      "qty": 6578,
+      "lines": 246,
+      "lossLines": 72,
+      "margin": 0.2768
+    },
+    {
+      "key": "Office Supplies | Paper",
+      "sales": 446452.86,
+      "profit": 45263.2,
+      "qty": 30871,
+      "lines": 1225,
+      "lossLines": 727,
+      "margin": 0.1014
+    },
+    {
+      "key": "Office Supplies | Labels",
+      "sales": 38981.55,
+      "profit": 13677.17,
+      "qty": 7301,
+      "lines": 288,
+      "lossLines": 33,
+      "margin": 0.3509
+    },
+    {
+      "key": "Office Supplies | Pens & Art Supplies",
+      "sales": 167107.22,
+      "profit": 7564.78,
+      "qty": 16980,
+      "lines": 633,
+      "lossLines": 302,
+      "margin": 0.0453
+    },
+    {
+      "key": "Office Supplies | Storage & Organization",
+      "sales": 1070182.6,
+      "profit": 6664.15,
+      "qty": 13804,
+      "lines": 546,
+      "lossLines": 379,
+      "margin": 0.0062
+    },
+    {
+      "key": "Office Supplies | Rubber Bands",
+      "sales": 15006.63,
+      "profit": -102.67,
+      "qty": 4920,
+      "lines": 179,
+      "lossLines": 100,
+      "margin": -0.0068
+    },
+    {
+      "key": "Office Supplies | Scissors, Rulers and Trimmers",
+      "sales": 80996.31,
+      "profit": -7799.25,
+      "qty": 3931,
+      "lines": 144,
+      "lossLines": 110,
+      "margin": -0.0963
+    },
+    {
+      "key": "Furniture | Bookcases",
+      "sales": 822652.04,
+      "profit": -33582.13,
+      "qty": 4891,
+      "lines": 189,
+      "lossLines": 148,
+      "margin": -0.0408
+    },
+    {
+      "key": "Furniture | Tables",
+      "sales": 1896008.14,
+      "profit": -99062.5,
+      "qty": 9195,
+      "lines": 361,
+      "lossLines": 258,
+      "margin": -0.0522
+    }
+  ],
+  "bySegment": [
+    {
+      "key": "Corporate",
+      "sales": 5498904.88,
+      "profit": 599746,
+      "qty": 78517,
+      "lines": 3076,
+      "lossLines": 1595,
+      "margin": 0.1091
+    },
+    {
+      "key": "Home Office",
+      "sales": 3564763.87,
+      "profit": 318354.03,
+      "qty": 52807,
+      "lines": 2032,
+      "lossLines": 1019,
+      "margin": 0.0893
+    },
+    {
+      "key": "Consumer",
+      "sales": 3063611.08,
+      "profit": 287959.94,
+      "qty": 41760,
+      "lines": 1649,
+      "lossLines": 823,
+      "margin": 0.094
+    },
+    {
+      "key": "Small Business",
+      "sales": 2788320.99,
+      "profit": 315708.01,
+      "qty": 41693,
+      "lines": 1642,
+      "lossLines": 827,
+      "margin": 0.1132
+    }
+  ],
+  "byShipMode": [
+    {
+      "key": "Regular Air",
+      "sales": 7506303.21,
+      "profit": 1104692.8,
+      "qty": 160660,
+      "lines": 6270,
+      "lossLines": 3134,
+      "margin": 0.1472
+    },
+    {
+      "key": "Delivery Truck",
+      "sales": 6224878.72,
+      "profit": 269644.87,
+      "qty": 28764,
+      "lines": 1146,
+      "lossLines": 684,
+      "margin": 0.0433
+    },
+    {
+      "key": "Express Air",
+      "sales": 1184418.9,
+      "profit": 147430.31,
+      "qty": 25353,
+      "lines": 983,
+      "lossLines": 446,
+      "margin": 0.1245
+    }
+  ],
+  "byPriority": [
+    {
+      "key": "Low",
+      "sales": 3282630.38,
+      "profit": 386184.9,
+      "qty": 44371,
+      "lines": 1720,
+      "lossLines": 856,
+      "margin": 0.1176
+    },
+    {
+      "key": "High",
+      "sales": 3267356.36,
+      "profit": 407069.65,
+      "qty": 45675,
+      "lines": 1768,
+      "lossLines": 876,
+      "margin": 0.1246
+    },
+    {
+      "key": "Medium",
+      "sales": 2862452.12,
+      "profit": 327051.73,
+      "qty": 41364,
+      "lines": 1631,
+      "lossLines": 830,
+      "margin": 0.1143
+    },
+    {
+      "key": "Not Specified",
+      "sales": 2778363.3,
+      "profit": 218584.83,
+      "qty": 42627,
+      "lines": 1672,
+      "lossLines": 845,
+      "margin": 0.0787
+    },
+    {
+      "key": "Critical",
+      "sales": 2724798.67,
+      "profit": 182876.87,
+      "qty": 40740,
+      "lines": 1608,
+      "lossLines": 857,
+      "margin": 0.0671
+    }
+  ],
+  "byContainer": [
+    {
+      "key": "Small Box",
+      "sales": 5088966.84,
+      "profit": 926993.64,
+      "qty": 111187,
+      "lines": 4347,
+      "lossLines": 2193,
+      "margin": 0.1822
+    },
+    {
+      "key": "Jumbo Drum",
+      "sales": 3406069.72,
+      "profit": 343920.41,
+      "qty": 15368,
+      "lines": 624,
+      "lossLines": 314,
+      "margin": 0.101
+    },
+    {
+      "key": "Large Box",
+      "sales": 2072929.72,
+      "profit": 108258.92,
+      "qty": 9856,
+      "lines": 406,
+      "lossLines": 249,
+      "margin": 0.0522
+    },
+    {
+      "key": "Medium Box",
+      "sales": 694875.35,
+      "profit": 100184.45,
+      "qty": 9258,
+      "lines": 366,
+      "lossLines": 177,
+      "margin": 0.1442
+    },
+    {
+      "key": "Small Pack",
+      "sales": 546797.1,
+      "profit": 88869.24,
+      "qty": 25196,
+      "lines": 956,
+      "lossLines": 457,
+      "margin": 0.1625
+    },
+    {
+      "key": "Wrap Bag",
+      "sales": 284667.12,
+      "profit": 27805.78,
+      "qty": 30233,
+      "lines": 1168,
+      "lossLines": 499,
+      "margin": 0.0977
+    },
+    {
+      "key": "Jumbo Box",
+      "sales": 2821294.96,
+      "profit": -74264.46,
+      "qty": 13679,
+      "lines": 532,
+      "lossLines": 375,
+      "margin": -0.0263
+    }
+  ],
+  "byDiscountBand": [
+    {
+      "key": "0%",
+      "sales": 1493748.22,
+      "profit": 188188.77,
+      "qty": 19736,
+      "lines": 756,
+      "lossLines": 350,
+      "margin": 0.126
+    },
+    {
+      "key": "1-3%",
+      "sales": 4185574.82,
+      "profit": 571055.2,
+      "qty": 60313,
+      "lines": 2350,
+      "lossLines": 1106,
+      "margin": 0.1364
+    },
+    {
+      "key": "4-6%",
+      "sales": 4050804.89,
+      "profit": 341965.83,
+      "qty": 57401,
+      "lines": 2290,
+      "lossLines": 1161,
+      "margin": 0.0844
+    },
+    {
+      "key": "7-10%",
+      "sales": 5183204.62,
+      "profit": 421042.17,
+      "qty": 77201,
+      "lines": 2998,
+      "lossLines": 1643,
+      "margin": 0.0812
+    },
+    {
+      "key": ">10%",
+      "sales": 2268.27,
+      "profit": -483.99,
+      "qty": 126,
+      "lines": 5,
+      "lossLines": 4,
+      "margin": -0.2134
+    }
+  ],
+  "monthly": [
+    {
+      "key": "2009-01",
+      "sales": 516302.96,
+      "profit": 62326.4,
+      "qty": 5552,
+      "lines": 223,
+      "lossLines": 117,
+      "margin": 0.1207
+    },
+    {
+      "key": "2009-02",
+      "sales": 332480.64,
+      "profit": 30422.68,
+      "qty": 4027,
+      "lines": 152,
+      "lossLines": 77,
+      "margin": 0.0915
+    },
+    {
+      "key": "2009-03",
+      "sales": 411628.73,
+      "profit": 22802.96,
+      "qty": 4258,
+      "lines": 185,
+      "lossLines": 95,
+      "margin": 0.0554
+    },
+    {
+      "key": "2009-04",
+      "sales": 393276.48,
+      "profit": 39132.73,
+      "qty": 4512,
+      "lines": 172,
+      "lossLines": 73,
+      "margin": 0.0995
+    },
+    {
+      "key": "2009-05",
+      "sales": 230145.54,
+      "profit": 18035.35,
+      "qty": 4829,
+      "lines": 182,
+      "lossLines": 100,
+      "margin": 0.0784
+    },
+    {
+      "key": "2009-06",
+      "sales": 263456.07,
+      "profit": 34640.55,
+      "qty": 4176,
+      "lines": 164,
+      "lossLines": 85,
+      "margin": 0.1315
+    },
+    {
+      "key": "2009-07",
+      "sales": 380503.97,
+      "profit": 41749.43,
+      "qty": 4815,
+      "lines": 190,
+      "lossLines": 97,
+      "margin": 0.1097
+    },
+    {
+      "key": "2009-08",
+      "sales": 329754.72,
+      "profit": 14682.84,
+      "qty": 4880,
+      "lines": 193,
+      "lossLines": 103,
+      "margin": 0.0445
+    },
+    {
+      "key": "2009-09",
+      "sales": 325292.31,
+      "profit": 46652.05,
+      "qty": 4805,
+      "lines": 183,
+      "lossLines": 93,
+      "margin": 0.1434
+    },
+    {
+      "key": "2009-10",
+      "sales": 361555.27,
+      "profit": 55228.01,
+      "qty": 4215,
+      "lines": 167,
+      "lossLines": 77,
+      "margin": 0.1528
+    },
+    {
+      "key": "2009-11",
+      "sales": 248933.43,
+      "profit": 16222.22,
+      "qty": 4036,
+      "lines": 169,
+      "lossLines": 91,
+      "margin": 0.0652
+    },
+    {
+      "key": "2009-12",
+      "sales": 415809.35,
+      "profit": 52643.51,
+      "qty": 4275,
+      "lines": 173,
+      "lossLines": 87,
+      "margin": 0.1266
+    },
+    {
+      "key": "2010-01",
+      "sales": 336526.68,
+      "profit": 48177.27,
+      "qty": 4248,
+      "lines": 166,
+      "lossLines": 89,
+      "margin": 0.1432
+    },
+    {
+      "key": "2010-02",
+      "sales": 271580.51,
+      "profit": 25999.13,
+      "qty": 4386,
+      "lines": 178,
+      "lossLines": 104,
+      "margin": 0.0957
+    },
+    {
+      "key": "2010-03",
+      "sales": 217808.01,
+      "profit": 1116.68,
+      "qty": 4061,
+      "lines": 159,
+      "lossLines": 90,
+      "margin": 0.0051
+    },
+    {
+      "key": "2010-04",
+      "sales": 266968.59,
+      "profit": 17306.51,
+      "qty": 3600,
+      "lines": 149,
+      "lossLines": 79,
+      "margin": 0.0648
+    },
+    {
+      "key": "2010-05",
+      "sales": 283534.28,
+      "profit": 42636.66,
+      "qty": 5554,
+      "lines": 199,
+      "lossLines": 85,
+      "margin": 0.1504
+    },
+    {
+      "key": "2010-06",
+      "sales": 293080.66,
+      "profit": 36130.26,
+      "qty": 4370,
+      "lines": 169,
+      "lossLines": 82,
+      "margin": 0.1233
+    },
+    {
+      "key": "2010-07",
+      "sales": 229885.5,
+      "profit": 15918.45,
+      "qty": 4304,
+      "lines": 170,
+      "lossLines": 83,
+      "margin": 0.0692
+    },
+    {
+      "key": "2010-08",
+      "sales": 207937.01,
+      "profit": 21862.78,
+      "qty": 4558,
+      "lines": 181,
+      "lossLines": 87,
+      "margin": 0.1051
+    },
+    {
+      "key": "2010-09",
+      "sales": 418343.28,
+      "profit": 50022.73,
+      "qty": 5020,
+      "lines": 193,
+      "lossLines": 88,
+      "margin": 0.1196
+    },
+    {
+      "key": "2010-10",
+      "sales": 365251.99,
+      "profit": 48596.75,
+      "qty": 4892,
+      "lines": 196,
+      "lossLines": 100,
+      "margin": 0.133
+    },
+    {
+      "key": "2010-11",
+      "sales": 290670.35,
+      "profit": 23345.07,
+      "qty": 4463,
+      "lines": 176,
+      "lossLines": 84,
+      "margin": 0.0803
+    },
+    {
+      "key": "2010-12",
+      "sales": 368093.95,
+      "profit": 32759.19,
+      "qty": 4928,
+      "lines": 206,
+      "lossLines": 109,
+      "margin": 0.089
+    },
+    {
+      "key": "2011-01",
+      "sales": 251467.23,
+      "profit": 17704.56,
+      "qty": 3673,
+      "lines": 154,
+      "lossLines": 84,
+      "margin": 0.0704
+    },
+    {
+      "key": "2011-02",
+      "sales": 299890.14,
+      "profit": 20848.88,
+      "qty": 4051,
+      "lines": 170,
+      "lossLines": 89,
+      "margin": 0.0695
+    },
+    {
+      "key": "2011-03",
+      "sales": 296035.87,
+      "profit": 43243.56,
+      "qty": 4108,
+      "lines": 156,
+      "lossLines": 85,
+      "margin": 0.1461
+    },
+    {
+      "key": "2011-04",
+      "sales": 288213.4,
+      "profit": 36106.24,
+      "qty": 4623,
+      "lines": 169,
+      "lossLines": 84,
+      "margin": 0.1253
+    },
+    {
+      "key": "2011-05",
+      "sales": 262628.5,
+      "profit": 25585.24,
+      "qty": 5283,
+      "lines": 184,
+      "lossLines": 95,
+      "margin": 0.0974
+    },
+    {
+      "key": "2011-06",
+      "sales": 197740.85,
+      "profit": 17478.47,
+      "qty": 4077,
+      "lines": 164,
+      "lossLines": 92,
+      "margin": 0.0884
+    },
+    {
+      "key": "2011-07",
+      "sales": 287905.19,
+      "profit": 36903.84,
+      "qty": 4391,
+      "lines": 171,
+      "lossLines": 83,
+      "margin": 0.1282
+    },
+    {
+      "key": "2011-08",
+      "sales": 274578.48,
+      "profit": 24378.93,
+      "qty": 3781,
+      "lines": 150,
+      "lossLines": 78,
+      "margin": 0.0888
+    },
+    {
+      "key": "2011-09",
+      "sales": 276049.8,
+      "profit": 33098.01,
+      "qty": 4055,
+      "lines": 162,
+      "lossLines": 88,
+      "margin": 0.1199
+    },
+    {
+      "key": "2011-10",
+      "sales": 305660.45,
+      "profit": 49054.12,
+      "qty": 4047,
+      "lines": 168,
+      "lossLines": 80,
+      "margin": 0.1605
+    },
+    {
+      "key": "2011-11",
+      "sales": 367769.5,
+      "profit": 39560.02,
+      "qty": 4397,
+      "lines": 168,
+      "lossLines": 92,
+      "margin": 0.1076
+    },
+    {
+      "key": "2011-12",
+      "sales": 328877.31,
+      "profit": 37494.12,
+      "qty": 5078,
+      "lines": 186,
+      "lossLines": 90,
+      "margin": 0.114
+    },
+    {
+      "key": "2012-01",
+      "sales": 340626.51,
+      "profit": 43312.52,
+      "qty": 4479,
+      "lines": 173,
+      "lossLines": 86,
+      "margin": 0.1272
+    },
+    {
+      "key": "2012-02",
+      "sales": 276132.5,
+      "profit": 25158.43,
+      "qty": 4138,
+      "lines": 152,
+      "lossLines": 76,
+      "margin": 0.0911
+    },
+    {
+      "key": "2012-03",
+      "sales": 348208.33,
+      "profit": 37636.13,
+      "qty": 4837,
+      "lines": 197,
+      "lossLines": 101,
+      "margin": 0.1081
+    },
+    {
+      "key": "2012-04",
+      "sales": 268024.97,
+      "profit": 31361.04,
+      "qty": 4535,
+      "lines": 182,
+      "lossLines": 85,
+      "margin": 0.117
+    },
+    {
+      "key": "2012-05",
+      "sales": 384588.06,
+      "profit": 29371.44,
+      "qty": 5607,
+      "lines": 213,
+      "lossLines": 108,
+      "margin": 0.0764
+    },
+    {
+      "key": "2012-06",
+      "sales": 276580.94,
+      "profit": 30454.28,
+      "qty": 3911,
+      "lines": 152,
+      "lossLines": 74,
+      "margin": 0.1101
+    },
+    {
+      "key": "2012-07",
+      "sales": 242809.7,
+      "profit": 26393.59,
+      "qty": 4419,
+      "lines": 168,
+      "lossLines": 84,
+      "margin": 0.1087
+    },
+    {
+      "key": "2012-08",
+      "sales": 302745.12,
+      "profit": 13660.95,
+      "qty": 4848,
+      "lines": 181,
+      "lossLines": 96,
+      "margin": 0.0451
+    },
+    {
+      "key": "2012-09",
+      "sales": 318271.57,
+      "profit": 34579.9,
+      "qty": 5236,
+      "lines": 197,
+      "lossLines": 92,
+      "margin": 0.1086
+    },
+    {
+      "key": "2012-10",
+      "sales": 351246.73,
+      "profit": 21137.51,
+      "qty": 5124,
+      "lines": 199,
+      "lossLines": 99,
+      "margin": 0.0602
+    },
+    {
+      "key": "2012-11",
+      "sales": 256020.1,
+      "profit": 27543.05,
+      "qty": 3355,
+      "lines": 132,
+      "lossLines": 63,
+      "margin": 0.1076
+    },
+    {
+      "key": "2012-12",
+      "sales": 354709.34,
+      "profit": 21292.94,
+      "qty": 3960,
+      "lines": 156,
+      "lossLines": 85,
+      "margin": 0.06
+    }
+  ],
+  "byCategoryYear": [
+    {
+      "key": "2009|Furniture",
+      "sales": 1472671.72,
+      "profit": 61804.53,
+      "qty": 11693,
+      "lines": 448,
+      "lossLines": 234,
+      "margin": 0.042
+    },
+    {
+      "key": "2009|Office Supplies",
+      "sales": 1034642.25,
+      "profit": 178088.98,
+      "qty": 29400,
+      "lines": 1164,
+      "lossLines": 615,
+      "margin": 0.1721
+    },
+    {
+      "key": "2009|Technology",
+      "sales": 1701825.48,
+      "profit": 194645.22,
+      "qty": 13287,
+      "lines": 541,
+      "lossLines": 246,
+      "margin": 0.1144
+    },
+    {
+      "key": "2010|Furniture",
+      "sales": 1252665.11,
+      "profit": 9401.83,
+      "qty": 11557,
+      "lines": 441,
+      "lossLines": 243,
+      "margin": 0.0075
+    },
+    {
+      "key": "2010|Office Supplies",
+      "sales": 899873.56,
+      "profit": 117046.93,
+      "qty": 29641,
+      "lines": 1171,
+      "lossLines": 600,
+      "margin": 0.1301
+    },
+    {
+      "key": "2010|Technology",
+      "sales": 1397142.14,
+      "profit": 237422.72,
+      "qty": 13186,
+      "lines": 530,
+      "lossLines": 237,
+      "margin": 0.1699
+    },
+    {
+      "key": "2011|Furniture",
+      "sales": 1269661.09,
+      "profit": 51681.97,
+      "qty": 10664,
+      "lines": 417,
+      "lossLines": 216,
+      "margin": 0.0407
+    },
+    {
+      "key": "2011|Office Supplies",
+      "sales": 800349.03,
+      "profit": 86139.49,
+      "qty": 28748,
+      "lines": 1116,
+      "lossLines": 630,
+      "margin": 0.1076
+    },
+    {
+      "key": "2011|Technology",
+      "sales": 1366806.58,
+      "profit": 243634.53,
+      "qty": 12152,
+      "lines": 469,
+      "lossLines": 194,
+      "margin": 0.1783
+    },
+    {
+      "key": "2012|Furniture",
+      "sales": 1183592.62,
+      "profit": -5455.3,
+      "qty": 10410,
+      "lines": 418,
+      "lossLines": 229,
+      "margin": -0.0046
+    },
+    {
+      "key": "2012|Office Supplies",
+      "sales": 1017897.26,
+      "profit": 136746.03,
+      "qty": 30489,
+      "lines": 1159,
+      "lossLines": 616,
+      "margin": 0.1343
+    },
+    {
+      "key": "2012|Technology",
+      "sales": 1518473.98,
+      "profit": 210611.05,
+      "qty": 13550,
+      "lines": 525,
+      "lossLines": 204,
+      "margin": 0.1387
+    }
+  ],
+  "topProductsByProfit": [
+    {
+      "key": "Global Troy� Executive Leather Low-Back Tilter",
+      "sales": 275941.52,
+      "profit": 79284.78,
+      "qty": 550,
+      "lines": 17,
+      "lossLines": 0,
+      "margin": 0.2873
+    },
+    {
+      "key": "Hewlett Packard LaserJet 3310 Copier",
+      "sales": 194880.35,
+      "profit": 73299.61,
+      "qty": 334,
+      "lines": 10,
+      "lossLines": 1,
+      "margin": 0.3761
+    },
+    {
+      "key": "Hewlett-Packard cp1700 [D, PS] Series Color Inkjet Printers",
+      "sales": 128100.43,
+      "profit": 55281.39,
+      "qty": 269,
+      "lines": 10,
+      "lossLines": 0,
+      "margin": 0.4315
+    },
+    {
+      "key": "GBC DocuBind 200 Manual Binding Machine",
+      "sales": 120342.74,
+      "profit": 50462.53,
+      "qty": 286,
+      "lines": 16,
+      "lossLines": 2,
+      "margin": 0.4193
+    },
+    {
+      "key": "Canon PC940 Copier",
+      "sales": 210910.68,
+      "profit": 47705.85,
+      "qty": 474,
+      "lines": 18,
+      "lossLines": 6,
+      "margin": 0.2262
+    },
+    {
+      "key": "Fellowes PB300 Plastic Comb Binding Machine",
+      "sales": 106908.29,
+      "profit": 45927.85,
+      "qty": 276,
+      "lines": 9,
+      "lossLines": 1,
+      "margin": 0.4296
+    },
+    {
+      "key": "Hewlett-Packard Deskjet 1220Cse Color Inkjet Printer",
+      "sales": 112417.21,
+      "profit": 44740.41,
+      "qty": 292,
+      "lines": 9,
+      "lossLines": 0,
+      "margin": 0.398
+    },
+    {
+      "key": "Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind",
+      "sales": 79968.65,
+      "profit": 32566.56,
+      "qty": 62,
+      "lines": 5,
+      "lossLines": 1,
+      "margin": 0.4072
+    },
+    {
+      "key": "GBC DocuBind TL300 Electric Binding System",
+      "sales": 85955.6,
+      "profit": 32022.88,
+      "qty": 99,
+      "lines": 7,
+      "lossLines": 0,
+      "margin": 0.3726
+    },
+    {
+      "key": "Smead Adjustable Mobile File Trolley with Lockable Top",
+      "sales": 109416.56,
+      "profit": 31939.21,
+      "qty": 261,
+      "lines": 11,
+      "lossLines": 3,
+      "margin": 0.2919
+    }
+  ],
+  "worstProductsByProfit": [
+    {
+      "key": "Okidata Pacemark 4410N Wide Format Dot Matrix Printer",
+      "sales": 60619.66,
+      "profit": -43949.37,
+      "qty": 18,
+      "lines": 6,
+      "lossLines": 6,
+      "margin": -0.725
+    },
+    {
+      "key": "Canon imageCLASS 2200 Advanced Copier",
+      "sales": 114173.41,
+      "profit": -31885.68,
+      "qty": 32,
+      "lines": 7,
+      "lossLines": 5,
+      "margin": -0.2793
+    },
+    {
+      "key": "Global High-Back Leather Tilter, Burgundy",
+      "sales": 82752.2,
+      "profit": -30518.9,
+      "qty": 666,
+      "lines": 24,
+      "lossLines": 24,
+      "margin": -0.3688
+    },
+    {
+      "key": "Epson DFX-8500 Dot Matrix Printer",
+      "sales": 85975.08,
+      "profit": -29400.34,
+      "qty": 35,
+      "lines": 7,
+      "lossLines": 7,
+      "margin": -0.342
+    },
+    {
+      "key": "Hoover Portapower� Portable Vacuum",
+      "sales": 2946.43,
+      "profit": -21088.48,
+      "qty": 465,
+      "lines": 18,
+      "lossLines": 18,
+      "margin": -7.1573
+    },
+    {
+      "key": "Polycom ViewStation� ISDN Videoconferencing Unit",
+      "sales": 255303.97,
+      "profit": -17771.27,
+      "qty": 41,
+      "lines": 7,
+      "lossLines": 4,
+      "margin": -0.0696
+    },
+    {
+      "key": "Epson DFX5000+ Dot Matrix Printer",
+      "sales": 20835.42,
+      "profit": -16160.74,
+      "qty": 14,
+      "lines": 5,
+      "lossLines": 5,
+      "margin": -0.7756
+    },
+    {
+      "key": "KI Conference Tables",
+      "sales": 23289.69,
+      "profit": -15701.27,
+      "qty": 323,
+      "lines": 13,
+      "lossLines": 9,
+      "margin": -0.6742
+    },
+    {
+      "key": "Lexmark 4227 Plus Dot Matrix Printer",
+      "sales": 59735.01,
+      "profit": -15492.81,
+      "qty": 32,
+      "lines": 6,
+      "lossLines": 5,
+      "margin": -0.2594
+    },
+    {
+      "key": "BoxOffice By Design Rectangular and Half-Moon Meeting Room Tables",
+      "sales": 104483.14,
+      "profit": -14938.68,
+      "qty": 516,
+      "lines": 22,
+      "lossLines": 22,
+      "margin": -0.143
+    }
+  ],
+  "topCustomersBySales": [
+    {
+      "key": "Emily Phan",
+      "sales": 117124.44,
+      "profit": 34005.44,
+      "qty": 269,
+      "lines": 10,
+      "lossLines": 5,
+      "margin": 0.2903
+    },
+    {
+      "key": "Deborah Brumfield",
+      "sales": 97433.14,
+      "profit": 31121.22,
+      "qty": 554,
+      "lines": 20,
+      "lossLines": 5,
+      "margin": 0.3194
+    },
+    {
+      "key": "Roy Skaria",
+      "sales": 92542.15,
+      "profit": 1343.94,
+      "qty": 773,
+      "lines": 26,
+      "lossLines": 14,
+      "margin": 0.0145
+    },
+    {
+      "key": "Sylvia Foulston",
+      "sales": 88875.76,
+      "profit": 5141.9,
+      "qty": 707,
+      "lines": 24,
+      "lossLines": 14,
+      "margin": 0.0579
+    },
+    {
+      "key": "Grant Carroll",
+      "sales": 88417,
+      "profit": 27977.29,
+      "qty": 739,
+      "lines": 27,
+      "lossLines": 15,
+      "margin": 0.3164
+    },
+    {
+      "key": "Alejandro Grove",
+      "sales": 83561.93,
+      "profit": 20588.92,
+      "qty": 415,
+      "lines": 14,
+      "lossLines": 5,
+      "margin": 0.2464
+    },
+    {
+      "key": "Darren Budd",
+      "sales": 81577.34,
+      "profit": 1857.66,
+      "qty": 1140,
+      "lines": 41,
+      "lossLines": 23,
+      "margin": 0.0228
+    },
+    {
+      "key": "Julia Barnett",
+      "sales": 80044.45,
+      "profit": -1956.09,
+      "qty": 633,
+      "lines": 21,
+      "lossLines": 8,
+      "margin": -0.0244
+    },
+    {
+      "key": "John Lucas",
+      "sales": 79696.19,
+      "profit": 12725.08,
+      "qty": 553,
+      "lines": 18,
+      "lossLines": 5,
+      "margin": 0.1597
+    },
+    {
+      "key": "Liz MacKendrick",
+      "sales": 76306.43,
+      "profit": 20397.24,
+      "qty": 590,
+      "lines": 20,
+      "lossLines": 11,
+      "margin": 0.2673
+    }
+  ],
+  "worstCustomersByProfit": [
+    {
+      "key": "Julia West",
+      "sales": 44021.42,
+      "profit": -14154.29,
+      "qty": 275,
+      "lines": 10,
+      "lossLines": 7,
+      "margin": -0.3215
+    },
+    {
+      "key": "Dave Kipp",
+      "sales": 25402.17,
+      "profit": -12930.59,
+      "qty": 408,
+      "lines": 14,
+      "lossLines": 9,
+      "margin": -0.509
+    },
+    {
+      "key": "Laurel Workman",
+      "sales": 21138.76,
+      "profit": -12587.05,
+      "qty": 131,
+      "lines": 7,
+      "lossLines": 4,
+      "margin": -0.5954
+    },
+    {
+      "key": "Adrian Barton",
+      "sales": 23088.53,
+      "profit": -11853.03,
+      "qty": 84,
+      "lines": 5,
+      "lossLines": 3,
+      "margin": -0.5134
+    },
+    {
+      "key": "Lauren Leatherbury",
+      "sales": 34621.94,
+      "profit": -11152.83,
+      "qty": 657,
+      "lines": 24,
+      "lossLines": 18,
+      "margin": -0.3221
+    }
+  ]
+}
